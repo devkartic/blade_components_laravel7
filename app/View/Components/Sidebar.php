@@ -30,6 +30,6 @@ class Sidebar extends Component
     }
 
     public function lists($string){
-        return ['list number 1', 'list number 2', 'list number 3', $string];
+        return ['Item 4 from class Component', 'Item 5 from class Component', 'Item 6 from class Component', $string];
     }
 }

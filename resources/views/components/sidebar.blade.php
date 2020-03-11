@@ -1,18 +1,19 @@
 <div>
+    <x-navigation />
     <!-- The whole future lies in uncertainty: live immediately. - Seneca -->
+    <x-partials.breadcrumb /> {{--    This is anonymous component. It's has no class. --}}
     <div {{ $attributes }}>
-        <div class="card-header">I am {{ $title }}</div>
+        <div class="card-header">{{ $title }}</div>
         <div class="card-body">
-            <h4>{{ $subtitle }}</h4>
+            <h5 class="card-title">{{ $subtitle }}</h5>
             <ul class="list-group">
-                <li class="list-group-item">First item</li>
-                <li class="list-group-item">Second item</li>
-                <li class="list-group-item">Third item</li>
+                <li class="list-group-item">Item 1 from view static</li>
+                <li class="list-group-item">Item 2 from view static</li>
                 <li class="list-group-item">{{ $info }}</li>
-                @foreach($lists('list number 4') as $list)
+                @foreach($lists('Item  5 marge from view component') as $list)
                     <li class="list-group-item">{{ $list }}</li>
                 @endforeach
-                {{ $slot }} // default slot
+                {{ $slot }}
             </ul>
         </div>
         <div class="card-footer">I am Footer</div>

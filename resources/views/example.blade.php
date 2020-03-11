@@ -13,10 +13,10 @@
 
 <div class="container">
 {{--    : use for echo variable--}}
-    <x-sidebar title="My Sidebar" :info=$info class="card">
-        <x-slot name="subtitle">Custom slot Subtitle</x-slot>
+    <x-sidebar title="Item list info" :info=$info class="card">
+        <x-slot name="subtitle">All items</x-slot>
 {{--        default slot--}}
-        <li class="list-group-item">Additional new item using slot</li>
+        <li class="list-group-item">Default slot</li>
     </x-sidebar>
 </div>
 

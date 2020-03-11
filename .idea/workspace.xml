@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5f4bfc-12d7-42a0-8a29-a1bd5d1142cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/Sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/Sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/example.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/example.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +140,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/components/partials" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -156,7 +163,7 @@
       <updated>1583773021360</updated>
       <workItem from="1583773024849" duration="3266000" />
       <workItem from="1583846841156" duration="5535000" />
-      <workItem from="1583931372044" duration="1505000" />
+      <workItem from="1583931372044" duration="5639000" />
     </task>
     <servers />
   </component>
@@ -172,5 +179,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1583931372724" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583942609519">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1583942609519" />
   </component>
 </project>

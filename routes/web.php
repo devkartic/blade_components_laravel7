@@ -20,5 +20,5 @@ Route::get('/', function () {
 //Route::view('example', 'example');
 
 Route::get('example', function (){
-    return view('example', ['info'=>'This is new list added']);
+    return view('example', ['info'=>'Item 3 from controller or route']);
 });
