@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::view('example', 'example');
+
+Route::get('example', function (){
+    return view('example', ['info'=>'This is new list added']);
+});
